@@ -1,10 +1,14 @@
-title: Read The Docs Jekyll Theme
-description: Port of the Read the Docs theme to Jekyll to use with GitHub Pages.
-remote_theme: carlosperate/jekyll-theme-rtd
+title: WZB's page
+description: Personal page, blogs and docs
 
-# Theme settings:
-site_author: Carlos Pereira Atencio
-repo_url: "https://github.com/carlosperate/jekyll-theme-rtd"
+# Development server config, needed to load some of the content
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+
+# Theme settings
+site_author: Wang Zhanbo
+repo_url: 'https://github.com/wangerforcs/wangerforcs.github.io'
 edit_on_github: true
 github_docs_folder: true
 sticky_navigation: true
